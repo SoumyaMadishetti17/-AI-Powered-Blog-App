@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+::-webkit-scrollbar{
+  display: none;
+
+}
+
+@theme {
+  --color-primary:#5044E5;
+}
+.logo{
+  color: rgb(48, 48, 149);
+  font-size: 25px;
+  font-weight: bold;
+}
