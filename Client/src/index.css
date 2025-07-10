@@ -8,8 +8,12 @@
 @theme {
   --color-primary:#5044E5;
 }
+*{
+  font-family: "Outfit", sans-serif;
+}
 .logo{
   color: rgb(48, 48, 149);
   font-size: 25px;
   font-weight: bold;
+  cursor: pointer;
 }
