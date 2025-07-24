@@ -42,7 +42,7 @@ const ListBlog = () => {
                 <BlogTableItem
                   key={blog._id}
                   blog={blog}
-                  fetchBlogs={fetchDashboard}
+                  fetchBlogs={fetchBlogs}
                   index={index + 1}
                 />
               );
