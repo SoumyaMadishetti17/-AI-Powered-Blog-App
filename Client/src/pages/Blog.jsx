@@ -5,24 +5,48 @@ import Navbar from '../components/Navbar'
 import Moment from 'moment';//date
 import Footer from '../components/Footer';
 import Loader from '../components/Loader';
+import { useAppContext } from '../context/AppContext';
+import toast from 'react-hot-toast';
 
 const Blog = () => {
   const {id}=useParams()
-  const [data,setData]=useState(null)
-  const [comment,setComment]=useState([])
+  const {axios} =useAppContext();
 
+  const [data,setData]=useState(null)
+  const [comments,setComments]=useState([])
   const [name,setName]=useState('')
   const [content,setContent]=useState('')
 
   const fetchComment=async()=>{
-    setComment(comments_data)
+    try{
+      const {data} =await axios.post('/api/blog/comments', {blogId: id})      
+      data.success ? setComments(data.comments): toast.error(data.message)
+    } catch(err){
+      toast.error(err.message)
+    }
   }
   const fetchBlogData=async()=>{
-    const data=blog_data.find(item=> item._id ===id)
-    setData(data);
+    try{
+      const {data} =await axios.get(`/api/blog/${id}`)
+      data.success ? setData(data.blog): toast.error(data.message)
+    } catch(err){
+      toast.error(err.message)
+    }
   }
   const addComment=async(e)=>{
-    e.preventDefault()
+    e.preventDefault();
+    try{
+      const {data} =await axios.post('/api/blog/add-comment', {blog: id, name, content});
+      if(data.success){
+        toast.success(data.message)
+        setName('')
+        setContent('')
+      }else{
+        toast.error(data.message)
+      }
+    } catch(err){
+      toast.error(err.message)
+    }
   }
   useEffect(()=>{
     fetchBlogData()
@@ -45,9 +69,9 @@ const Blog = () => {
 
         {/* {comments} */}
         <div className='mt-14 mb-10 max-w-3xl mx-auto'>
-          <p className='font-semibold mb-4'>Comments ({comment.length}) </p>
+          <p className='font-semibold mb-4'>Comments ({comments.length}) </p>
           <div className='flex flex-col gap-4'>
-            {comment.map((item,id)=>(
+            {comments.map((item,id)=>(
               <div key={id} className='relative bg-primary/2 border border-primary/5 max-w-xl p-4 rounded text-gray-600'>
                 <div className='flex items-center gap-2 mb-2'>
                   <img src={assets.user_icon} alt="" className='w-6' />
