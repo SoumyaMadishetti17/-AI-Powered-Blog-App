@@ -72,6 +72,7 @@ git clone https://github.com/SoumyaMadishetti17/-AI-Powered-Blog-App.git
 cd AI-Powered-Blog-App
 
 ### 2️⃣ Install dependencies
+```bash
  # Backend
 cd server
 npm install
