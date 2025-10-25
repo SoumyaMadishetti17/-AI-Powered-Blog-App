@@ -67,7 +67,7 @@ With this project, you’ll learn how to:
 ## 🧰 Installation & Setup
 
 ### 1️⃣ Clone the repository
-
+```bash
 git clone https://github.com/SoumyaMadishetti17/-AI-Powered-Blog-App.git
 cd AI-Powered-Blog-App
 
