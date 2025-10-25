@@ -67,11 +67,11 @@ With this project, you’ll learn how to:
 ## 🧰 Installation & Setup
 
 ### 1️⃣ Clone the repository
-```bash
+
 git clone https://github.com/SoumyaMadishetti17/-AI-Powered-Blog-App.git
 cd AI-Powered-Blog-App
 
-2️⃣ Install dependencies
+### 2️⃣ Install dependencies
  # Backend
 cd server
 npm install
@@ -80,7 +80,7 @@ npm install
 cd ../client
 npm install
 
-3️⃣ Run the app locally
+### 3️⃣ Run the app locally
 # Start backend
 cd server
 npm run dev
