@@ -133,5 +133,6 @@ This project is a production-ready, AI-driven MERN blog platform showcasing:
 ✅ Admin Control
 
 🚀 Learn how to build, integrate, and deploy AI-powered full-stack applications with Google Gemini, ImageKit, and the MERN stack — from scratch to production!
+ ```
 
-<p align="center">⭐ If you like this project, consider giving it a star on GitHub! ⭐</p> ```
+<p align="center">⭐ If you like this project, consider giving it a star on GitHub! ⭐</p>
