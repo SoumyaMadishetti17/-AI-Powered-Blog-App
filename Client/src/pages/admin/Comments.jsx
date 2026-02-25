@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { comments_data } from "../../assets/QuickBlog-Assets/assets";
 import CommentTableItem from "../../components/admin/CommentTableItem";
 import { useAppContext } from "../../context/AppContext";
+import toast from "react-hot-toast";
 
 const Comments = () => {
   const [comments, setComments] = useState([]);
