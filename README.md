@@ -1,4 +1,4 @@
-🚀 AI Enabled Full Stack Blog Platform (MERN + Gemini)
+# 🚀 AI Enabled Full Stack Blog Platform (MERN + Gemini)
 
 An intelligent, production-ready blogging platform built using the MERN Stack that enables admins to create, manage, and publish blogs with AI-generated content, optimized media, and a powerful admin dashboard.
 
@@ -15,20 +15,17 @@ This project demonstrates real-world full-stack architecture with AI integration
 * Blog comments system
 * Secure admin authentication
 * Responsive modern UI
-* Fully deployed on cloud (Vercel + Backend Hosting)
+* Fully deployed on cloud
 
 ---
 
-🧠 AI Integration (Google Gemini)
+## 🧠 AI Integration (Google Gemini)
 
 The platform integrates Google Gemini API to:
 
 ✨ Generate blog titles
-
 📝 Create full-length blog content
-
 ⚡ Speed up content creation for admins
-
 💡 Assist with idea generation and writing support
 
 ---
@@ -53,7 +50,8 @@ The platform integrates Google Gemini API to:
 
 * Google Gemini API (AI Content Generation)
 * ImageKit API (Image Upload & Optimization)
-* Vercel (Frontend Deployment)
+* Netlify (Frontend Deployment)
+* Render (Backend Deployment)
 
 ---
 
@@ -69,36 +67,26 @@ AI-Blog-App
 
 ---
 
-🔐 Admin Capabilities
+## 🔐 Admin Capabilities
 
 The admin dashboard allows:
 
 🔑 Secure login authentication
-
 ➕ Publish new blog posts
-
 🤖 Generate content using AI
-
 🖼 Upload and manage blog images
-
 ✏️ Edit or update existing blogs
-
 ❌ Delete blogs
-
 💬 View and manage comments
-
 📊 Access dashboard analytics
 
 ---
 
-👥 User Features
+## 👥 User Features
 
 📖 Browse all blogs on homepage
-
 🔍 View detailed blog content
-
 💬 Add comments on posts
-
 📱 Fully responsive UI for all devices
 
 ---
@@ -108,8 +96,8 @@ The admin dashboard allows:
 Clone the repository:
 
 ```
-git clone https://github.com/your-username/AI-Blog-App.git
-cd AI-Blog-App
+git clone https://github.com/SoumyaMadishetti17/-AI-Powered-Blog-App.git
+cd AI-Powered-Blog-App
 ```
 
 Install dependencies:
@@ -143,11 +131,40 @@ PORT=5000
 MONGO_URI=your_mongodb_connection
 JWT_SECRET=your_secret
 
- # AI
- GEMINI_API_KEY=your_gemini_key
- # ImageKit
-IMAGEKIT_PUBLIC_KEY=xxx IMAGEKIT_PRIVATE_KEY=xxx IMAGEKIT_URL_ENDPOINT=xxx
+# AI
+GEMINI_API_KEY=your_gemini_key
+
+# ImageKit
+IMAGEKIT_PUBLIC_KEY=xxx
+IMAGEKIT_PRIVATE_KEY=xxx
+IMAGEKIT_URL_ENDPOINT=xxx
 ```
+
+---
+
+## 🚀 Deployment
+
+### Frontend – Netlify
+
+* Build Command: `npm run build`
+* Publish Directory: `dist`
+* Environment Variable:
+
+```
+VITE_API_BASE_URL=https://your-render-backend-url.onrender.com
+```
+
+### Backend – Render
+
+* Runtime: Node.js
+* Build Command: `npm install`
+* Start Command: `npm run server`
+* Add environment variables in Render dashboard:
+
+  * MONGO_URI
+  * JWT_SECRET
+  * GEMINI_API_KEY
+  * IMAGEKIT keys
 
 ---
 
@@ -159,26 +176,21 @@ This project demonstrates:
 * AI integration in real applications
 * REST API design
 * Authentication & authorization
-* Cloud deployment
-* Media handling
+* Cloud deployment (Netlify + Render)
+* Media handling with CDN
 * Production-level architecture
 
 Perfect for **Full Stack / MERN / AI-enabled developer portfolios**.
 
 ---
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
 👤 User authentication & profiles
-
 ❤️ Like / Bookmark system
-
 🖊 Rich text editor (Markdown/Editor)
-
 🔍 Blog search & category filters
-
 📈 AI-powered SEO optimization
-
 📊 Advanced analytics dashboard
 
 ---
@@ -188,5 +200,4 @@ Perfect for **Full Stack / MERN / AI-enabled developer portfolios**.
 **Soumya Madishetti**
 Full Stack Developer | MERN | AI Integration
 
----
-📌 Building scalable web apps with modern technologies.
+## 📌 Building scalable web apps with modern technologies.
