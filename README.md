@@ -71,23 +71,24 @@ AI-Blog-App
 
 The admin dashboard allows:
 
-🔑 Secure login authentication
-➕ Publish new blog posts
-🤖 Generate content using AI
-🖼 Upload and manage blog images
-✏️ Edit or update existing blogs
-❌ Delete blogs
-💬 View and manage comments
-📊 Access dashboard analytics
+* 🔑 Secure login authentication
+* ➕ Publish new blog posts
+* 🤖 Generate content using AI
+* 🖼 Upload and manage blog images
+* ✏️ Edit or update existing blogs
+* ❌ Delete blogs
+* 💬 View and manage comments
+* 📊 Access dashboard analytics
+
 
 ---
 
 ## 👥 User Features
 
-📖 Browse all blogs on homepage
-🔍 View detailed blog content
-💬 Add comments on posts
-📱 Fully responsive UI for all devices
+* 📖 Browse all blogs on homepage
+* 🔍 View detailed blog content
+* 💬 Add comments on posts
+* 📱 Fully responsive UI for all devices
 
 ---
 
@@ -186,12 +187,12 @@ Perfect for **Full Stack / MERN / AI-enabled developer portfolios**.
 
 ## 🔮 Future Improvements
 
-👤 User authentication & profiles
-❤️ Like / Bookmark system
-🖊 Rich text editor (Markdown/Editor)
-🔍 Blog search & category filters
-📈 AI-powered SEO optimization
-📊 Advanced analytics dashboard
+* 👤 User authentication & profiles
+* ❤️ Like / Bookmark system
+* 🖊 Rich text editor (Markdown/Editor)
+* 🔍 Blog search & category filters
+* 📈 AI-powered SEO optimization
+* 📊 Advanced analytics dashboard
 
 ---
 
