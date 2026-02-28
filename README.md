@@ -6,6 +6,14 @@ This project demonstrates real-world full-stack architecture with AI integration
 
 ---
 
+## 🔗 Live Demo :
+ai-powered-blogs.netlify.app/
+
+## 📂 GitHub Repository :
+https://github.com/SoumyaMadishetti17/-AI-Powered-Blog-App.git
+
+---
+
 ## 🚀 Live Features
 
 * AI-powered blog content generation using Google Gemini
