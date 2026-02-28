@@ -6,11 +6,10 @@ This project demonstrates real-world full-stack architecture with AI integration
 
 ---
 
-## 🔗 Live Demo :
-ai-powered-blogs.netlify.app/
+## 🔗 Live Demo & Repository
 
-## 📂 GitHub Repository :
-https://github.com/SoumyaMadishetti17/-AI-Powered-Blog-App.git
+🌐 Live: https://ai-powered-blogs.netlify.app  
+📂 GitHub: https://github.com/SoumyaMadishetti17/-AI-Powered-Blog-App
 
 ---
 
