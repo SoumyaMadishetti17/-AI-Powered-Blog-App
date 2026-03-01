@@ -30,10 +30,10 @@ This project demonstrates real-world full-stack architecture with AI integration
 
 The platform integrates Google Gemini API to:
 
-✨ Generate blog titles
-📝 Create full-length blog content
-⚡ Speed up content creation for admins
-💡 Assist with idea generation and writing support
+* ✨ Generate blog titles
+* 📝 Create full-length blog content
+* ⚡ Speed up content creation for admins
+* 💡 Assist with idea generation and writing support
 
 ---
 
