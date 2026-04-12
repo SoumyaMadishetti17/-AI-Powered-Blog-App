@@ -1,19 +1,56 @@
 import jwt from 'jsonwebtoken';
 import Blog from '../models/Blog.js';
 import Comment from '../models/Comment.js';
+import Admin from '../models/Admin.js';
 
 export const adminLogin = async (req, res) => {
     try {
-        const { email, password } = req.body;
-        if( email !== process.env.ADMIN_EMAIL || password !== process.env.ADMIN_PASSWORD ){
-            return res.json({success: false, message: 'Invalid credentials'});
+        let { email, password } = req.body;
+
+        email = email.toLowerCase().trim();
+
+        const admin = await Admin.findOne({ email });
+
+        if (!admin) {
+            return res.json({
+                success: false,
+                message: "Admin not found"
+            });
         }
-        const token = jwt.sign({ email }, process.env.JWT_SECRET)
-        res.json({success: true, token})
+
+        if (admin.password !== password) {
+            return res.json({
+                success: false,
+                message: "Wrong password"
+            });
+        }
+
+        const token = jwt.sign(
+            { id: admin._id },
+            process.env.JWT_SECRET,
+            { expiresIn: "1d" }
+        );
+
+        res.json({ success: true, token });
+
     } catch (error) {
-        res.json({ success: false, message: error.message});
+        res.json({ success: false, message: error.message });
     }
-}
+};
+
+
+// export const adminLogin = async (req, res) => {
+//     try {
+//         const { email, password } = req.body;
+//         if( email !== process.env.ADMIN_EMAIL || password !== process.env.ADMIN_PASSWORD ){
+//             return res.json({success: false, message: 'Invalid credentials'});
+//         }
+//         const token = jwt.sign({ email }, process.env.JWT_SECRET)
+//         res.json({success: true, token})
+//     } catch (error) {
+//         res.json({ success: false, message: error.message});
+//     }
+// }
 
 export const getAllBlogsAdmin = async (req, res) => {
     try {
