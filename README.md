@@ -11,7 +11,7 @@
 
 **A production-ready full stack blogging platform where AI writes the content, humans manage the story.**
 
-[🌐 Live Demo]([https://ai-powered-blogs.netlify.app](https://tangerine-sunburst-abaad0.netlify.app/)) &nbsp;•&nbsp; [⚙️ Backend Docs](./Server/README.md) &nbsp;•&nbsp; [📂 Frontend Docs](./Client/README.md) &nbsp;•&nbsp; [🐛 Report Bug](https://github.com/SoumyaMadishetti17/-AI-Powered-Blog-App/issues)
+[🌐 Live Demo](https://tangerine-sunburst-abaad0.netlify.app/) &nbsp;•&nbsp; [⚙️ Backend Docs](./Server/README.md) &nbsp;•&nbsp; [📂 Frontend Docs](./Client/README.md) &nbsp;•&nbsp; [🐛 Report Bug](https://github.com/SoumyaMadishetti17/-AI-Powered-Blog-App/issues)
 
 </div>
 
@@ -27,11 +27,11 @@
 
 | User Login | Register |
 |-----------|----------|
-| ![Login](screenshots/login.png) | ![Register](screenshots/register.png) |
+| ![Login](screenshots/login.png) | ![Register](screenshots/login_account.png) |
 
 | Blog Management |
 |----------------|
-| ![Blog List](screenshots/bloglist.png) |
+| ![Blog List](screenshots/blog_lists.png) |
 
 </div>
 
@@ -277,17 +277,11 @@ git push origin main
 Full Stack Developer · MERN · AI Integration
 
 [![GitHub](https://img.shields.io/badge/GitHub-SoumyaMadishetti17-black?style=flat&logo=github)](https://github.com/SoumyaMadishetti17)
-[![Live](https://img.shields.io/badge/Live-DevBlogs-brightgreen?style=flat&logo=netlify)](https://ai-powered-blogs.netlify.app)
+[![Live](https://img.shields.io/badge/Live-DevBlogs-brightgreen?style=flat&logo=netlify)](https://tangerine-sunburst-abaad0.netlify.app/)
 
 *Building scalable web applications with modern technologies and clean architecture.*
 
 </div>
-
----
-
-## 📄 License
-
-MIT License — see [LICENSE](LICENSE) for details.
 
 ---
 
