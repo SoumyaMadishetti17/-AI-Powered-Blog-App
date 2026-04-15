@@ -2,7 +2,7 @@
 
 # DevBlogs — AI-Powered Blog Platform
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=netlify)]([https://ai-powered-blogs.netlify.app](https://tangerine-sunburst-abaad0.netlify.app/))
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=netlify)](https://tangerine-sunburst-abaad0.netlify.app/)
 [![API](https://img.shields.io/badge/API-Live-blue?style=for-the-badge&logo=render)](https://ai-powered-blog-app-e28x.onrender.com)
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org)
 [![Node](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
