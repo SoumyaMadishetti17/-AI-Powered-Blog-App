@@ -27,7 +27,7 @@
 
 | User Login | Register |
 |-----------|----------|
-| ![Login](screenshots/login.png) | ![Register](screenshots/login_account.png) |
+| ![Login](screenshots/user_login.png) | ![Register](screenshots/login_account.png) |
 
 | Blog Management |
 |----------------|
