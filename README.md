@@ -29,6 +29,10 @@
 |-----------|----------|
 | ![Login](screenshots/user_login.png) | ![Register](screenshots/login_account.png) |
 
+| Blog Management | Sample Blog Page |
+|---------------|------------|
+| ![Blog List](screenshots/blog_lists.png) | ![Sample Blog](screenshots/sample_blogpage.png) |
+
 | Blog Management |
 |----------------|
 | ![Blog List](screenshots/blog_lists.png) |
