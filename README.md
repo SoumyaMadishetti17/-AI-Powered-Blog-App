@@ -33,10 +33,6 @@
 |---------------|------------|
 | ![Blog List](screenshots/blog_lists.png) | ![Sample Blog](screenshots/sample_blogpage.png) |
 
-| Blog Management |
-|----------------|
-| ![Blog List](screenshots/blog_lists.png) |
-
 </div>
 
 ---
