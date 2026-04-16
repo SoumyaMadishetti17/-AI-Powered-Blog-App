@@ -15,26 +15,6 @@
 
 ---
 
-## 📸 Screenshots
-
-<div align="center">
-
-| Home Page | Single Blog Post |
-|-----------|-----------------|
-| ![Home](../screenshots/home.png) | ![Blog](../screenshots/blog.png) |
-
-| User Login | Create Account |
-|-----------|---------------|
-| ![Login](../screenshots/login.png) | ![Register](../screenshots/register.png) |
-
-| Admin Dashboard | Blog Management |
-|----------------|----------------|
-| ![Dashboard](../screenshots/dashboard.png) | ![Blog List](../screenshots/bloglist.png) |
-
-</div>
-
----
-
 ## 📁 Project Structure
 
 ```
